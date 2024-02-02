@@ -1,0 +1,14 @@
+.qwerty{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+ margin-top: 5%;
+}
+
+@media (max-width: 800px) {
+  .qwerty {
+    margin-top: 100px;
+  }
+}

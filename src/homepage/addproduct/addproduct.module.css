@@ -1,0 +1,41 @@
+.addproduct{
+ width: 300px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #63C98E;
+box-shadow: 0px 10px 30px 0px rgba(226, 236, 249, 0.50);
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: aliceblue; 
+}
+
+.addproduct:hover{
+    cursor: pointer;
+}
+
+.content{
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+color: aliceblue;
+}
+
+@media only screen and (max-width: 450px) {
+    .addproduct {
+      width: 260px;
+      height: 230px;
+    }
+  }
+
+  @media only screen and (max-width: 850px) and (min-width: 451px) {
+    .addproduct {
+      width: 400px;
+      height: 250px;
+    }
+  }
+
+ 
